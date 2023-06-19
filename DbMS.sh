@@ -18,6 +18,8 @@ histogram(){
 }
 
 build_html_dashbord(){
+
+    source ./bash/agregate_files.sh
     source ./bash/build_html_dashbord.sh
 }
 
