@@ -396,3 +396,12 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+
+## Exclude database connections
+
+
+config/database.conf
+public/output/images/*
+tmp
+histogram*
