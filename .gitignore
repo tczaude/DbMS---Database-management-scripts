@@ -404,4 +404,3 @@ FodyWeavers.xsd
 config/database.conf
 public/output/images/*
 tmp
-histogram*
