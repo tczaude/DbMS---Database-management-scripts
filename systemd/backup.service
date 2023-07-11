@@ -1,0 +1,9 @@
+[Unit]
+Description=Backup Service
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /var/git/DbMS/mariadbbackup.sh
+
+[Install]
+WantedBy=default.target
